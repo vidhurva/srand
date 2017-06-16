@@ -10,7 +10,7 @@
   {
           int i;
   
-          srand(time(NULL)); // By adding NULL, the seed of the random number ge    nerator corresponds to the current time
+          srand(time(NULL)); // By adding NULL, the seed of the random number generator corresponds to the current time
           for(int i =1; i <= 10; i++)
                   cout << rand() << endl;
   
